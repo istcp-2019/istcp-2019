@@ -1,171 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
-</head>
-<body>
-  
+  <head>
+    <!-- Title -->
+    <title>Blank Page</title>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li>               <a href="#">About</a></li>
-        <li>               <a href="#">Projects</a></li>
-        <li>               <a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
 
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Link 1</a></p>
-      <p><a href="#">Link 2</a></p>
-      <p><a href="#">Link 3</a></p>
-    </div>
-    <div class="col-sm-8 text-left"> 
-      <h4> BS Grid Basic </h4>      
-      <p>  Bootstrap's grid system allows up to 12 columns across the page. </p>
-      <p>  The Bootstrap grid system has four classes: </p>
-      <ul>
-           <li>xs (for phones)</li>
-           <li>sm (for tablets)</li>
-           <li>md (for desktops)</li>
-           <li>lg (for larger desktops)</li>
-      </ul>
-      <p>  Example: </p>
-      <div class="row">
-        <div class="col-sm-4" style="background-color:lavender;">This is grid class .col-sm-4</div>
-        <div class="col-sm-8" style="background-color:lavenderblush;">This is grid class .col-sm-8</div>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="assets/css/unify-core.css">
+    <link rel="stylesheet" href="assets/css/unify-components.css">
+    <link rel="stylesheet" href="assets/css/unify-globals.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+  </head>
+
+  <body>
+    <main>
+      <div class="container g-py-150 text-center">
+        <h1 class="g-font-size-60 mb-4">Blank Page</h1>
+        <p class="g-font-size-18 mb-5">This is a plain page to start building your website like a Lego!</p>
+        <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="index.html">Back to the Intro Page</a>
       </div>
-      <hr>
-      <h4> BS Typography </h4>      
-      <ul>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;code&gt;</code> element as: 
-              <code>text inside code</code>
-          </li>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;mark&gt;</code> element as: 
-              <mark style="background-color:#fcf8e3;padding:.2em;">text inside mark</mark>
-          </li>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;lbd&gt;</code> element as: 
-              <kbd>text inside kbd</kbd>
-          </li>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;samp&gt;</code> element as: 
-              <samp>This is an example of a computer program ...</samp>
-          </li>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;var&gt;</code> element as: 
-              <var>ax+b=0</var>
-          </li>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;pre&gt;</code> element as: 
-              <pre>This is    a plain text as it       comes.</pre>
-          </li>
-          <li> 
-              Bootstrap will style the HTML <code>&lt;blockquote&gt;</code> element as: 
-              <blockquote>
-                <p style="font-size:70%;">
-                For 50 years, WWF has been protecting the future of nature. The
-                world's leading conservation organization, WWF works in 100 countries and is
-                supported by 1.2 million members in the United States and close to 5 million
-                globally.
-                </p> <footer style="font-size:60%;">From WWF's website</footer>
-              </blockquote>
-          </li>
-          <li> 
-              <p>Bootstrap provides the <mark>contextual colors classes</mark> to offer "meaning through colors":</p>
-              <p class="text-muted">   <code>&lt;p class="text-muted"&gt;</code>   as muted text.</p>
-              <p class="text-primary"> <code>&lt;p class="text-primary"&gt;</code> as important text.</p>
-              <p class="text-success"> <code>&lt;p class="text-success"&gt;</code> as text indicating success.</p>
-              <p class="text-info">    <code>&lt;p class="text-info"&gt;</code>    as text representing some information.</p>
-              <p class="text-warning"> <code>&lt;p class="text-warning"&gt;</code> as text representing a warning.</p>
-              <p class="text-danger">  <code>&lt;p class="text-danger"&gt;</code>  as text representing danger.</p>
-          </li>
-          <li> 
-              Bootstrap also provides the <mark>contextual background-colors classes</mark> with the same meaning: 
-              <p></p>
-              <p class="bg-primary"> <code>&lt;p class="text-primary"&gt;</code> as important text.</p>
-              <p class="bg-success"> <code>&lt;p class="text-success"&gt;</code> as text indicating success.</p>
-              <p class="bg-info">    <code>&lt;p class="text-info"&gt;</code>    as text representing some information.</p>
-              <p class="bg-warning"> <code>&lt;p class="text-warning"&gt;</code> as text representing a warning.</p>
-              <p class="bg-danger">  <code>&lt;p class="text-danger"&gt;</code>  as text representing danger.</p>
-          </li>
-      </ul>
-      <hr>
-      <h4>BS ...</h4>
-      <p> more examples will come ...</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
-    </div>
-  </div>
-</div>
+    </main>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+    <!-- JS Global Compulsory -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/jquery.easing/js/jquery.easing.js"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-</body>
+    <!-- JS Unify -->
+    <script src="assets/js/hs.core.js"></script>
+
+    <!-- JS Custom -->
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
