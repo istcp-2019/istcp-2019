@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Title -->
-  <title>Blank Page</title>
+  <title>Classic Header - Align Left | Unify - Responsive Website Template</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -11,19 +12,24 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
-
   <!-- Google Fonts -->
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700">
-
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
   <!-- CSS Global Compulsory -->
   <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-
+  <link rel="stylesheet" href="assets/vendor/bootstrap/offcanvas.css">
   <!-- CSS Global Icons -->
-  <link rel="stylesheet" href="../../assets/vendor/icon-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../../assets/vendor/icon-line/css/simple-line-icons.css">
-  <link rel="stylesheet" href="../../assets/vendor/icon-etlinefont/style.css">
-  <link rel="stylesheet" href="../../assets/vendor/icon-line-pro/style.css">
-  <link rel="stylesheet" href="../../assets/vendor/icon-hs/style.css">
+  <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/vendor/icon-etlinefont/style.css">
+  <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
+  <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+  <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+  <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+  <link rel="stylesheet" href="assets/vendor/animate.css">
+  <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
 
   <!-- CSS Unify -->
   <link rel="stylesheet" href="assets/css/unify-core.css">
@@ -38,9 +44,9 @@
   <main>
 
     <!-- Header -->
-    <header id="js-header" class="u-header u-header--static">
-      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
-        <nav class="js-mega-menu navbar navbar-expand-lg">
+    <header id="js-header" class="u-header u-header--static u-header--show-hide u-header--change-appearance" data-header-fix-moment="500" data-header-fix-effect="slide">
+      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-15" data-header-fix-moment-exclude="g-bg-white g-py-15" data-header-fix-moment-classes="g-bg-white-opacity-0_8 u-shadow-v18 g-py-5">
+        <nav class="navbar navbar-expand-lg">
           <div class="container">
 
             <!-- Responsive Toggle Button -->
@@ -53,59 +59,56 @@
             </button>
             <!-- End Responsive Toggle Button -->
 
-            <!-- Logo -->
-            <!--
-            <a href="index.html" class="navbar-brand">
-              <img src="assets/img/logo/logo-1.png" alt="Image Description">
-            </a>
-            -->
-            <!-- End Logo -->
-
             <!-- Navigation -->
-            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
-              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--sm" id="navBar">
+              <ul class="navbar-nav text-uppercase g-font-weight-600 mx-auto">
 
                 <!-- About -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a href="pages/404.html" class="nav-link g-py-10 g-px-0">About</a>
+                <li class="nav-item dropdown g-mx-25--lg">
+                  <a href="#" class="nav-link dropdown-toggle g-px-0" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1" data-toggle="dropdown">About</a>
+                  <!-- Submenu (Bootstrap) -->
+                  <ul class="dropdown-menu rounded-0 g-text-transform-none g-brd-none g-brd-top g-brd-primary g-brd-top-2 g-mt-20 g-mt-10--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
+                    <li class="dropdown-item active">
+                      <a class="nav-link g-px-0" href="#">Welcome</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="nav-link g-px-0" href="#">Organizing Committee</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="nav-link g-px-0" href="#">International Advisory Committee</a>
+                    </li>
+                  </ul>
+                  <!-- End Submenu (Bootstrap) -->
                 </li>
                 <!-- End About -->
 
                 <!-- Information -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a href="pages/404.html" class="nav-link g-py-10 g-px-0">Information</a>
+                <li class="nav-item g-mx-25--lg">
+                  <a href="#" class="nav-link px-0">Information</a>
                 </li>
                 <!-- End Information -->
 
-                <!-- Organizers -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a href="pages/404.html" class="nav-link g-py-10 g-px-0">Organizers</a>
+                <!-- Program -->
+                <li class="nav-item g-mx-25--lg">
+                  <a href="#" class="nav-link px-0">Program</a>
                 </li>
-                <!-- End Organizers -->
+                <!-- End Program -->
 
-                <!-- Contact -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a href="pages/404.html" class="nav-link g-py-10 g-px-0">Contact</a>
+                <!-- Exhibitions -->
+                <li class="nav-item g-mx-25--lg">
+                  <a href="#" class="nav-link px-0">Exhibitions</a>
                 </li>
-                <!-- End Contact -->
+                <!-- End Exhibitions -->
+
+                <!-- Sponsors -->
+                <li class="nav-item g-mx-25--lg">
+                  <a href="#" class="nav-link px-0">Sponsors</a>
+                </li>
+                <!-- End Sponsors -->
 
               </ul>
             </div>
             <!-- End Navigation -->
-
-            <!-- Registration Button -->
-            <div class="d-inline-block g-hidden-xs-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg">
-              <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" 
-                 target="_blank">Login
-              </a>
-              <!--
-              <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" 
-                 href="https://wrapbootstrap.com/theme/unify-responsive-website-template-WB0412697?ref=htmlstream" 
-                 target="_blank">Register now
-              </a>
-              -->
-            </div>
-            <!-- End Registration Button -->
 
           </div>
         </nav>
@@ -113,15 +116,20 @@
     </header>
     <!-- End Header -->
 
+
     <!-- Promo Block -->
     <section class="g-bg-cover g-bg-pos-top-center g-bg-img-hero g-bg-black-opacity-0_3--after g-min-height-100vh g-flex-centered g-py-100" style="background-image: url(assets/img/tromso/Tromso_Michal.jpg);">
       <div class="container g-color-white text-center g-z-index-1">
         <div class="mb-5">
           <h2 class="g-font-weight-700 g-font-size-40 g-font-size-70--md text-uppercase g-mb-30">
-              ISTCP-X 2019 Conference
+              ISTCP 2019
           </h2>
-          <p class="g-font-size-30 mb-4">July 11-17, 2019</p>
-          <p class="g-font-size-30 mb-4">Tromsø, Norway</p>
+          <h3 class="g-font-weight-700 g-font-size-35 g-font-size-40--md g-mb-30">
+              10th Triennial Congress of the International
+              Society for Theoretical Chemical Physics 
+          </h3>
+          <p class="g-font-size-35 mb-4">July 11-17, 2019</p>
+          <p class="g-font-size-35 mb-4">Tromsø, Norway</p>
         </div>
         <a class="js-go-to btn u-btn-outline-white g-color-white g-bg-white-opacity-0_1 g-color-black--hover g-bg-white--hover g-font-weight-600 text-uppercase g-rounded-50 g-px-30 g-py-13" href="#" data-target="#content">Pre-Register Now</a>
       </div>
@@ -138,12 +146,13 @@
               <i class="icon-finance-086 u-line-icon-pro"></i>
             </span>
           <h3 class="h4 g-color-gray-dark-v2 mb-3">Creative ideas</h3>
-	  <p class="mb-0">  Congresses of the International Society for Theoretical Chemical
-                            Physics (ISTCP) continue the tradition of presenting the achievement and advances of
+	  <p class="mb-0">  ISTCP-X continues in the tradition of presenting the achievement and advances of
                             all areas of theoretical chemical physics, with special emphasis on the
                             interaction between experimental and theoretical physical chemistry, chemical
-                            physics, materials and life sciences. The scope of ISTCP-X will cover a broad
-                            range of topics that include ...
+                            physics, materials and life sciences. 
+          </p>
+	  <p></p> 
+	  <p class="mb-0">  The scope of ISTCP-X will cover a broad range of topics that include
           </p>
         </div>
         <!-- End Icon Blocks -->
@@ -156,7 +165,7 @@
               <i class="icon-education-031 u-line-icon-pro"></i>
             </span>
           <h3 class="h4 g-color-gray-dark-v2 mb-3">Excellent speakers</h3>
-          <p class="mb-0"> </p>
+          <p class="mb-0"> List of speakers to come.</p>
         </div>
         <!-- End Icon Blocks -->
       </div>
@@ -168,7 +177,7 @@
               <i class="icon-finance-222 u-line-icon-pro"></i>
             </span>
           <h3 class="h4 g-color-gray-dark-v2 mb-3">Unique location</h3>
-          <p class="mb-0">Tromsø, Norway</p>
+          <p class="mb-0"> Text to come.</p>
         </div>
         <!-- End Icon Blocks -->
       </div>
@@ -176,14 +185,209 @@
     <!-- End Icon Blocks -->
 
 
+    <!-- Footer -->
+    <div id="contacts-section" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">About Us</h2>
+            </div>
 
-    <!--
-    <div class="container g-py-150 text-center">
-      <p class="g-font-size-18 mb-5">This is a plain page to start building the conference website like a Lego!</p>
-      <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" 
-         href="index.html">Back to the Main Page</a>
+            <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Latest Posts</h2>
+            </div>
+
+            <article>
+              <h3 class="h6 g-mb-2">
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Incredible template</a>
+          </h3>
+              <div class="small g-color-white-opacity-0_6">May 8, 2017</div>
+            </article>
+
+            <hr class="g-brd-white-opacity-0_1 g-my-10">
+
+            <article>
+              <h3 class="h6 g-mb-2">
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">New features</a>
+          </h3>
+              <div class="small g-color-white-opacity-0_6">June 23, 2017</div>
+            </article>
+
+            <hr class="g-brd-white-opacity-0_1 g-my-10">
+
+            <article>
+              <h3 class="h6 g-mb-2">
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">New terms and conditions</a>
+          </h3>
+              <div class="small g-color-white-opacity-0_6">September 15, 2017</div>
+            </article>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Useful Links</h2>
+            </div>
+
+            <nav class="text-uppercase1">
+              <ul class="list-unstyled g-mt-minus-10 mb-0">
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">About Us</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Portfolio</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Our Services</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Latest Jobs</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+                <li class="g-pos-rel g-py-10">
+                  <h4 class="h6 g-pr-20 mb-0">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Contacts</a>
+                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+              </h4>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-3 col-md-6">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Contacts</h2>
+            </div>
+
+            <address class="g-bg-no-repeat g-font-size-12 mb-0" style="background-image: url(assets/img/maps/map2.png);">
+          <!-- Location -->
+          <div class="d-flex g-mb-20">
+            <div class="g-mr-10">
+              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+                <i class="fa fa-map-marker"></i>
+              </span>
+            </div>
+            <p class="mb-0">Hansine Hansens Veg <br> Tromsø, NO-9037 </p>
+          </div>
+          <!-- End Location -->
+
+          <!-- Phone -->
+          <div class="d-flex g-mb-20">
+            <div class="g-mr-10">
+              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+                <i class="fa fa-phone"></i>
+              </span>
+            </div>
+            <p class="mb-0">(+47) 123 4567 <br> (+47) 123 4567</p>
+          </div>
+          <!-- End Phone -->
+
+          <!-- Email and Website -->
+          <div class="d-flex g-mb-20">
+            <div class="g-mr-10">
+              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+                <i class="fa fa-globe"></i>
+              </span>
+            </div>
+            <p class="mb-0">
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@htmlstream.com">info@istcp-2019.org</a>
+              <br>
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">www.istcp-2019.org</a>
+            </p>
+          </div>
+          <!-- End Email and Website -->
+        </address>
+          </div>
+          <!-- End Footer Content -->
+        </div>
+      </div>
     </div>
-    -->
+    <!-- End Footer -->
+
+    <!-- Copyright Footer -->
+    <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
+            <div class="d-lg-flex">
+              <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2017 © All Rights Reserved.</small>
+              <ul class="u-list-inline">
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Privacy Policy</a>
+                </li>
+                <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Terms of Use</a>
+                </li>
+                <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">License</a>
+                </li>
+                <li class="list-inline-item">
+                  <span>|</span>
+                </li>
+                <li class="list-inline-item">
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 align-self-center">
+            <ul class="list-inline text-center text-md-right mb-0">
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Skype">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-skype"></i>
+                </a>
+              </li>
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Copyright Footer -->
+    <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
+     "bottom": 15,
+     "right": 15
+   }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
+      <i class="hs-icon hs-icon-arrow-top"></i>
+    </a>
   </main>
 
   <!-- JS Global Compulsory -->
@@ -192,11 +396,79 @@
   <script src="assets/vendor/jquery.easing/js/jquery.easing.js"></script>
   <script src="assets/vendor/popper.min.js"></script>
   <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/vendor/bootstrap/offcanvas.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+  <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+  <script src="assets/vendor/masonry/dist/masonry.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
   <!-- JS Unify -->
   <script src="assets/js/hs.core.js"></script>
 
+  <script src="assets/js/components/hs.header.js"></script>
+  <script src="assets/js/helpers/hs.hamburgers.js"></script>
+
+  <script src="assets/js/components/hs.dropdown.js"></script>
+  <script src="assets/js/components/hs.popup.js"></script>
+  <script src="assets/js/components/hs.carousel.js"></script>
+
+  <script src="assets/js/components/hs.go-to.js"></script>
+
   <!-- JS Custom -->
   <script src="assets/js/custom.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of carousel
+      $.HSCore.components.HSCarousel.init('.js-carousel');
+
+      $('#we-provide').slick('setOption', 'responsive', [{
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2
+        }
+      }, {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1
+        }
+      }], true);
+
+      // initialization of HSDropdown component
+      $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
+        afterOpen: function(){
+          $(this).find('input[type="search"]').focus();
+        }
+      });
+
+      // initialization of masonry
+      $('.masonry-grid').imagesLoaded().then(function () {
+        $('.masonry-grid').masonry({
+          columnWidth: '.masonry-grid-sizer',
+          itemSelector: '.masonry-grid-item',
+          percentPosition: true
+        });
+      });
+
+      // initialization of popups
+      $.HSCore.components.HSPopup.init('.js-fancybox');
+    });
+
+    $(window).on('load', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#js-header'));
+      $.HSCore.helpers.HSHamburgers.init('.hamburger');
+    });
+  </script>
 </body>
+
 </html>
