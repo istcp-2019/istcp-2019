@@ -1,0 +1,4 @@
+source:      .
+destination: ./_site
+layouts_dir: ./_layouts
+permalink:   pretty
