@@ -1,5 +1,5 @@
 ---
 layout:    default
 include:   session
-permalink: session.html 
+permalink: session.htm
 ---
