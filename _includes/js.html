@@ -14,18 +14,17 @@
 <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
 <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
 <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+<script src="assets/vendor/cubeportfolio-full/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
 <!-- JS Unify -->
 <script src="assets/js/hs.core.js"></script>
-
 <script src="assets/js/components/hs.header.js"></script>
 <script src="assets/js/helpers/hs.hamburgers.js"></script>
-
 <script src="assets/js/components/hs.dropdown.js"></script>
 <script src="assets/js/components/hs.popup.js"></script>
 <script src="assets/js/components/hs.carousel.js"></script>
-
 <script src="assets/js/components/hs.go-to.js"></script>
+<script src="assets/js/components/hs.cubeportfolio.js"></script>
 
 <!-- JS Custom -->
 <script src="assets/js/custom.js"></script>
@@ -75,5 +74,21 @@
     // initialization of header
     $.HSCore.components.HSHeader.init($('#js-header'));
     $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 991
+    });
+
+    // initialization of cubeportfolio
+    $.HSCore.components.HSCubeportfolio.init('.cbp');
+  });
+
+  $(window).on('resize', function () {
+    setTimeout(function () {
+      $.HSCore.components.HSTabs.init('[role="tablist"]');
+    }, 200);
   });
 </script>
