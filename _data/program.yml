@@ -1,167 +1,174 @@
 - date: Thursday, July 11
+  id:   July11
   blocks:
-    - row: [primary, Opening ceremony,  '17:00'] 
-    - row: [primary, Keynote lecture,   '17:30', Sharon Hammes-Schiffer]
-    - row: [primary, Plenary lecture,   '18:15', Trygve Helgaker]
-    - row: [red,     Welcome reception, '19:00'] 
+    - row: [primary | 1700, Opening ceremony,  '17:00'] 
+    - row: [primary,        Keynote lecture ,  '17:30', Sharon Hammes-Schiffer]
+    - row: [primary,        Plenary lecture ,  '18:15', Trygve Helgaker]
+    - row: [yellow,         Welcome reception, '19:00'] 
 
 
 - date: Friday, July 12
+  id:   July12
   blocks:
-    - row: [primary, Plenary Lectures]
-    - row: [primary, '08:30', Peter Schwerdtfeger]
-    - row: [primary, '09:15', Sylvio Canuto]
+    - row: [primary | 0830, Plenary Lectures]
+    - row: [primary,        '08:30', Peter Schwerdtfeger]
+    - row: [primary,        '09:15', Sylvio Canuto]
       #
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
-    - row: [blue, Parallel Sessions, Heavy-element chemistry, Machine learning,       Multiscale modeling, Large-scale el. structure ]
-    - row: [blue, '10:30',           Thomas Albrecht-Schmitt, Pavlo Dral,             Oleg Prezhdo,        Ilaria Ciofini            ]
-    - row: [blue, '11:00',           Katharina Boguslawski,   Cecilia Clementi,       Damien Laage,        Helio A. Duarte           ]
-    - row: [blue, '11:30',           Han-Shi Hu,              Marivi Fernandez-Serra, Dominika Zgid,       Petko Petkov              ]
-    - row: [blue, '12:00',           Michael Patzschke,       Koji Tsuda,             Thomas Markland,     Jianping Xiao             ]
+    - row: [blue | 1030,   Parallel Sessions, Heavy-element chemistry, Machine learning,       Multiscale modeling, Large-scale el. structure ]
+    - row: [blue,          '10:30',           Thomas Albrecht-Schmitt, Pavlo Dral,             Oleg Prezhdo,        Ilaria Ciofini            ]
+    - row: [blue,          '11:00',           Katharina Boguslawski,   Cecilia Clementi,       Damien Laage,        Helio A. Duarte           ]
+    - row: [blue,          '11:30',           Han-Shi Hu,              Marivi Fernandez-Serra, Dominika Zgid,       Petko Petkov              ]
+    - row: [blue,          '12:00',           Michael Patzschke,       Koji Tsuda,             Thomas Markland,     Jianping Xiao             ]
       #
     - row: [gray-light-v4, Lunch, '12:30-14:00']
       #
-    - row: [blue, Parallel Sessions, Heavy-element chemistry, Mol. properties and interactions, Multiscale modeling  ]
-    - row: [blue, '14:00',        Luuk Visscher,              Alston Misquitta,                 Filippo Lipparini    ]
-    - row: [blue, '14:30',        Andre Severo Pereira Gomes, Krzystof Szalewicz,               Jean-Philip Piquemal ]
-    - row: [blue, '15:00',        Hiromi Nakai,               Andreas Hesselmann,               Debashree Ghosh      ]
-    - row: [blue, '15:30',        Florian Weigend,            Malgorzata M. Szczesniak,         Ksenia Bravaya       ] 
+    - row: [blue | 1400, Parallel Sessions, Heavy-element chemistry, Mol. properties and interactions, Multiscale modeling  ]
+    - row: [blue,        '14:00',        Luuk Visscher,              Alston Misquitta,                 Filippo Lipparini    ]
+    - row: [blue,        '14:30',        Andre Severo Pereira Gomes, Krzystof Szalewicz,               Jean-Philip Piquemal ]
+    - row: [blue,        '15:00',        Hiromi Nakai,               Andreas Hesselmann,               Debashree Ghosh      ]
+    - row: [blue,        '15:30',        Florian Weigend,            Malgorzata M. Szczesniak,         Ksenia Bravaya       ] 
       #
     - row: [gray-light-v4, Coffee, '16:00-16:30']
       #
-    - row: [blue, Parallel Sessions, Emergent electronic structure, '90 years of r12: Hylleraas symp.', Path-integral methods  ]
-    - row: [blue, '16:30',           Ali Alavi,                     Edit Matyus,                        David Ceperley         ]
-    - row: [blue, '17:00',           Cyrus Umrigar,                 Kirk Peterson,                      Mark Tuckerman         ]
-    - row: [blue, '17:30',           Eric Neuscamman,               David Tew,                          Jian Liu               ]
-    - row: [blue, '18:00',           Sandeep Sharma,                Hans-Joachim Werner,                Nancy Makri            ] 
+    - row: [blue | 1630, Parallel Sessions, Emergent electronic structure, '90 years of r12: Hylleraas symp.', Path-integral methods  ]
+    - row: [blue,        '16:30',           Ali Alavi,                     Edit Matyus,                        David Ceperley         ]
+    - row: [blue,        '17:00',           Cyrus Umrigar,                 Kirk Peterson,                      Mark Tuckerman         ]
+    - row: [blue,        '17:30',           Eric Neuscamman,               David Tew,                          Jian Liu               ]
+    - row: [blue,        '18:00',           Sandeep Sharma,                Hans-Joachim Werner,                Nancy Makri            ] 
 
 
 - date: Saturday, July 13
+  id:   July13
   blocks:
-    - row: [primary, Plenary Lectures]
-    - row: [primary, '08:30', Peter Gill]
-    - row: [primary, '09:15', Peter Saalfrank]
+    - row: [primary | 0830, Plenary Lectures]
+    - row: [primary,        '08:30', Peter Gill]
+    - row: [primary,        '09:15', Peter Saalfrank]
       #
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
-    - row: [blue, Parallel Sessions, Heavy-element chemistry, Machine learning,     Phys.org.chem. and catalysis, Nucl. and el. dynamics ]
-    - row: [blue, '10:30',           Stefaan Cottenier,       Olexandr Isayev,      Robert Paton,                 Todd J. Martinez       ]
-    - row: [blue, '11:00',           Helene Bolvin,           Johannes Hachmann,    Kathrin Hopmann,              Regina de Vivie-Riedle ]
-    - row: [blue, '11:30',           Juha Vaara,              Alexandre Tkatchenko, Per-Ola Norrby,               Leticia Gonzalez       ]
-    - row: [blue, '12:00',           Peter Hrobarik,          Natalia Cordeiro,     Benedetta Mennucci,           Graham Worth           ]
+    - row: [blue | 1030, Parallel Sessions, Heavy-element chemistry, Machine learning,     Phys.org.chem. and catalysis, Nucl. and el. dynamics ]
+    - row: [blue,        '10:30',           Stefaan Cottenier,       Olexandr Isayev,      Robert Paton,                 Todd J. Martinez       ]
+    - row: [blue,        '11:00',           Helene Bolvin,           Johannes Hachmann,    Kathrin Hopmann,              Regina de Vivie-Riedle ]
+    - row: [blue,        '11:30',           Juha Vaara,              Alexandre Tkatchenko, Per-Ola Norrby,               Leticia Gonzalez       ]
+    - row: [blue,        '12:00',           Peter Hrobarik,          Natalia Cordeiro,     Benedetta Mennucci,           Graham Worth           ]
       #
     - row: [gray-light-v4, Lunch, '12:30-14:00']
       #
-    - row: [blue, Parallel Sessions, '90 years of r12: Hylleraas symp.', Mol. properties and interactions, Path-integral methods ]
-    - row: [blue, '14:00',           Angela Wilson,                      Katharine Hunt,                   Stuart Althorpe       ]
-    - row: [blue, '14:30',           Florian Bischoff,                   Jacob Kongsted,                   Nandini Ananth        ]
-    - row: [blue, '15:00',           Andreas Grüneis,                    Toon Verstraelen,                 Jeremy Richardson     ]
-    - row: [blue, '15:30',           Andreas Köhn,                       Denis Jacquemin,                  David Manolopoulos    ]
+    - row: [blue | 1400, Parallel Sessions, '90 years of r12: Hylleraas symp.', Mol. properties and interactions, Path-integral methods ]
+    - row: [blue,        '14:00',           Angela Wilson,                      Katharine Hunt,                   Stuart Althorpe       ]
+    - row: [blue,        '14:30',           Florian Bischoff,                   Jacob Kongsted,                   Nandini Ananth        ]
+    - row: [blue,        '15:00',           Andreas Grüneis,                    Toon Verstraelen,                 Jeremy Richardson     ]
+    - row: [blue,        '15:30',           Andreas Köhn,                       Denis Jacquemin,                  David Manolopoulos    ]
       #
     - row: [gray-light-v4, Coffee, '16:00-16:30']
       #
-    - row: [blue, Parallel Sessions, Emergent electronic structure, Heavy-element chemistry, Multiscale modeling ]
-    - row: [blue, '16:30',           Piotr Piecuch,                 Aurora Clark,            Aurelien de la Lande]
-    - row: [blue, '17:00',           Gustavo Scuseria,              Jochen Autschbach,       Joachim Sauer       ]
-    - row: [blue, '17:30',           Paola Gori-Giorgi,             Xiaosong Li,             Chao-Ping Hsu       ]
-    - row: [blue, '18:00',           Laura Gagliardi,               Michal Repisky,          Rosa Bulo           ] 
+    - row: [blue | 1630, Parallel Sessions, Emergent electronic structure, Heavy-element chemistry, Multiscale modeling ]
+    - row: [blue,        '16:30',           Piotr Piecuch,                 Aurora Clark,            Aurelien de la Lande]
+    - row: [blue,        '17:00',           Gustavo Scuseria,              Jochen Autschbach,       Joachim Sauer       ]
+    - row: [blue,        '17:30',           Paola Gori-Giorgi,             Xiaosong Li,             Chao-Ping Hsu       ]
+    - row: [blue,        '18:00',           Laura Gagliardi,               Michal Repisky,          Rosa Bulo           ] 
       #
-    - row: [teal, Poster session 1, '19:00']
+    - row: [teal | 1900, Poster session 1, '19:00']
 
 
 - date: Sunday, July 14
+  id:   July14
   blocks:
-    - row: [blue, Parallel Sessions, Mol. properties and interactions, Machine learning,  Computational biophysics ]
-    - row: [blue, '08:30',           Berta Fernandez,                  Alex Zhavoronkov,  Helmut Grubmüller        ]
-    - row: [blue, '09:00',           Patrick Norman,                   Alona Furmanchuk,  Nathalie Reuter          ]
-    - row: [blue, '09:30',           Sonia Coriani,                    Alan Aspuru-Guzik, Teresa Head-Gordon       ]
+    - row: [blue | 0830, Parallel Sessions, Mol. properties and interactions, Machine learning,  Computational biophysics ]
+    - row: [blue,        '08:30',           Berta Fernandez,                  Alex Zhavoronkov,  Helmut Grubmüller        ]
+    - row: [blue,        '09:00',           Patrick Norman,                   Alona Furmanchuk,  Nathalie Reuter          ]
+    - row: [blue,        '09:30',           Sonia Coriani,                    Alan Aspuru-Guzik, Teresa Head-Gordon       ]
       #
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
-    - row: [blue, Parallel Sessions, '90 years of r12: Hylleraas symp.', Computational spectroscopy, Path-integral methods ]
-    - row: [blue, '10:30',           Anna-Sophia Hehn,                   Shaul Mukamel,              Angelos Michaelides   ]
-    - row: [blue, '11:00',           Seiichiro L. Ten-no,                Malgorzata Biczysko,        Mariana Rossi         ]
-    - row: [blue, '11:30',           Jan M. L. Martin,                   Jonathan Tennyson,          Michele Ceriotti      ]
-    - row: [blue, '12:00',           Ludwik Adamowicz,                   Yohann Scribano,            Francesco Paesani     ] 
+    - row: [blue | 1030, Parallel Sessions, '90 years of r12: Hylleraas symp.', Computational spectroscopy, Path-integral methods ]
+    - row: [blue,        '10:30',           Anna-Sophia Hehn,                   Shaul Mukamel,              Angelos Michaelides   ]
+    - row: [blue,        '11:00',           Seiichiro L. Ten-no,                Malgorzata Biczysko,        Mariana Rossi         ]
+    - row: [blue,        '11:30',           Jan M. L. Martin,                   Jonathan Tennyson,          Michele Ceriotti      ]
+    - row: [blue,        '12:00',           Ludwik Adamowicz,                   Yohann Scribano,            Francesco Paesani     ] 
       #
     - row: [yellow, Free time, '12:30']
 
 
 - date: Monday, July 15
+  id:   July15
   blocks:
-    - row: [primary, Plenary Lectures]
-    - row: [primary, '08:30', Thomas F. Miller]
-    - row: [primary, '09:15', Irene Burghardt]
+    - row: [primary | 0830, Plenary Lectures]
+    - row: [primary,        '08:30', Thomas F. Miller]
+    - row: [primary,        '09:15', Irene Burghardt ]
       #
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
-    - row: [blue, Parallel Sessions, Emergent electronic structure, Mol. properties and interactions, Computational biophysics,       Large-scale el. structure]
-    - row: [blue, '10:30',           Claudia Filippi,               Stefan Grimme,                    Madhurima Jana Mikko Karttunen, Volker Blum          ]
-    - row: [blue, '11:00',           Brenda Rubenstein,             Lyudmila Slipchenko,              Michele Cascella,               Christian Ochsenfeld ]
-    - row: [blue, '11:30',           Fabien Bruneval,               Attila Csaszar,                   Monika Fuxreiter,               Joost VandeVondele   ]
-    - row: [blue, '12:00',           Katarzyna Pernal,              Tatiana Korona,                   TBA,                            Steven G.Louie       ]
+    - row: [blue | 1030, Parallel Sessions, Emergent electronic structure, Mol. properties and interactions, Computational biophysics,       Large-scale el. structure]
+    - row: [blue,        '10:30',           Claudia Filippi,               Stefan Grimme,                    Madhurima Jana Mikko Karttunen, Volker Blum          ]
+    - row: [blue,        '11:00',           Brenda Rubenstein,             Lyudmila Slipchenko,              Michele Cascella,               Christian Ochsenfeld ]
+    - row: [blue,        '11:30',           Fabien Bruneval,               Attila Csaszar,                   Monika Fuxreiter,               Joost VandeVondele   ]
+    - row: [blue,        '12:00',           Katarzyna Pernal,              Tatiana Korona,                   TBA,                            Steven G.Louie       ]
       #
     - row: [gray-light-v4, Lunch, '12:30-14:00']
       #
-    - row: [blue, Parallel Sessions, Ultracold chemical physics, Nuclear and electron dynamics, Phys.org.chem. and catalysis ]
-    - row: [blue, '14:00',           Guido Pupillo,              Fernando Martin,               Satoshi Maeda                ]
-    - row: [blue, '14:30',           Olivier Dulieu,             Eberhard Gross,                Natalie Fey                  ]
-    - row: [blue, '15:00',           Robert Moszynski,           Nina Rohringer,                Markus Reiher                ]
-    - row: [blue, '15:30',           Svetlana Kotochigova,       Boutheina Kerkeni,             Heather J. Kulik             ]
+    - row: [blue | 1400, Parallel Sessions, Ultracold chemical physics, Nuclear and electron dynamics, Phys.org.chem. and catalysis ]
+    - row: [blue,        '14:00',           Guido Pupillo,              Fernando Martin,               Satoshi Maeda                ]
+    - row: [blue,        '14:30',           Olivier Dulieu,             Eberhard Gross,                Natalie Fey                  ]
+    - row: [blue,        '15:00',           Robert Moszynski,           Nina Rohringer,                Markus Reiher                ]
+    - row: [blue,        '15:30',           Svetlana Kotochigova,       Boutheina Kerkeni,             Heather J. Kulik             ]
       #
     - row: [gray-light-v4, Coffee, '16:00-16:30']
       #
-    - row: [blue, Parallel Sessions, Emergent electronic structure, Computational spectroscopy, Path-integral methods ]
-    - row: [blue, '16:30',           Steven R. White,               Julien Bloino,              Barak Hirshberg       ]
-    - row: [blue, '17:00',           Garnet Chan,                   Tucker Carrington,          Seogjoo Jang          ]
-    - row: [blue, '17:30',           Philippe Corboz,               Ad van der Avoird,          Pierre-Nicholas Roy   ]
-    - row: [blue, '18:00',           Örs Legeza,                    Fabien Gatti,               Gregory A. Voth       ]
+    - row: [blue | 1630, Parallel Sessions, Emergent electronic structure, Computational spectroscopy, Path-integral methods ]
+    - row: [blue,        '16:30',           Steven R. White,               Julien Bloino,              Barak Hirshberg       ]
+    - row: [blue,        '17:00',           Garnet Chan,                   Tucker Carrington,          Seogjoo Jang          ]
+    - row: [blue,        '17:30',           Philippe Corboz,               Ad van der Avoird,          Pierre-Nicholas Roy   ]
+    - row: [blue,        '18:00',           Örs Legeza,                    Fabien Gatti,               Gregory A. Voth       ]
       #
-    - row: [teal, Poster session 2, '19:00']
+    - row: [teal | 1900, Poster session 2, '19:00']
 
 
 - date: Tuesday, July 16
+  id:   July16
   blocks:
-    - row: [primary, Plenary Lectures]
-    - row: [primary, '08:30', Giulia Galli ]
-    - row: [primary, '09:15', Zhigang Shuai]
+    - row: [primary | 0830, Plenary Lectures]
+    - row: [primary,        '08:30', Giulia Galli ]
+    - row: [primary,        '09:15', Zhigang Shuai]
       #
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
-    - row: [blue, Parallel Sessions, Ladik symposium,      Ultracold chemical physics, Phys.org.chem. and catalysis, Large-scale el. structure]
-    - row: [blue, '10:30',           Rodney J. Bartlett,   Jeremy Hutson,              Yousung Jung,                 Shuhua Li                ]
-    - row: [blue, '11:00',           Alia Tadjer,          John Bohn,                  Carine Michel,                Johannes Neugebauer      ]
-    - row: [blue, '11:30',           Martin Quack,         Robin Cote,                 Hai Lin,                      Marcus Elstner           ]
-    - row: [blue, '12:00',           Cleanthes Nicolaides, Piotr Zuchowski,            Michelle Coote,               Tsuyoshi Miyazaki        ]
+    - row: [blue | 1030, Parallel Sessions, Ladik symposium,      Ultracold chemical physics, Phys.org.chem. and catalysis, Large-scale el. structure]
+    - row: [blue,        '10:30',           Rodney J. Bartlett,   Jeremy Hutson,              Yousung Jung,                 Shuhua Li                ]
+    - row: [blue,        '11:00',           Alia Tadjer,          John Bohn,                  Carine Michel,                Johannes Neugebauer      ]
+    - row: [blue,        '11:30',           Martin Quack,         Robin Cote,                 Hai Lin,                      Marcus Elstner           ]
+    - row: [blue,        '12:00',           Cleanthes Nicolaides, Piotr Zuchowski,            Michelle Coote,               Tsuyoshi Miyazaki        ]
       #
     - row: [gray-light-v4, Lunch, '12:30-14:00']
       #
-    - row: [blue, Parallel Sessions, Emergent electronic structure, Computational spectroscopy, Computational biophysics ]
-    - row: [blue, '14:00',           Michiel van Setten,            Faris Gelmukhanov,          Inaki Tunon              ]
-    - row: [blue, '14:30',           Timothy Berkelbach,            Vincenzo Carravetta,        Maria Joao Ramos         ]
-    - row: [blue, '15:00',           Luigi Genovese,                Barbara Brena,              Qiang Cui                ]
-    - row: [blue, '15:30',           Luca Frediani,                 Weijie Hua,                 Fernanda Duarte Gonzalez ]
+    - row: [blue | 1400, Parallel Sessions, Emergent electronic structure, Computational spectroscopy, Computational biophysics ]
+    - row: [blue,        '14:00',           Michiel van Setten,            Faris Gelmukhanov,          Inaki Tunon              ]
+    - row: [blue,        '14:30',           Timothy Berkelbach,            Vincenzo Carravetta,        Maria Joao Ramos         ]
+    - row: [blue,        '15:00',           Luigi Genovese,                Barbara Brena,              Qiang Cui                ]
+    - row: [blue,        '15:30',           Luca Frediani,                 Weijie Hua,                 Fernanda Duarte Gonzalez ]
       #
     - row: [gray-light-v4, Coffee, '16:00-16:30']
       #
-    - row: [blue, Parallel Sessions, Nuclear and electron dynamics, Ultracold chemical physics, Large-scale el. structure ]
-    - row: [blue, '16:30',           David Clary,                   Rosario Gonzalez-Ferez,     Woo Youn Kim              ]
-    - row: [blue, '17:00',           Francoise Remacle,             Timur Tscherbul,            Beatriz Gonzalez del Rio  ]
-    - row: [blue, '17:30',           Olga Smirnova,                 Christiane Koch,            Gianluca Fiori            ]
-    - row: [blue, '18:00',           Morgane Vacher,                Goulven Quemener,           David Tomanek             ] 
+    - row: [blue | 1630, Parallel Sessions, Nuclear and electron dynamics, Ultracold chemical physics, Large-scale el. structure ]
+    - row: [blue,        '16:30',           David Clary,                   Rosario Gonzalez-Ferez,     Woo Youn Kim              ]
+    - row: [blue,        '17:00',           Francoise Remacle,             Timur Tscherbul,            Beatriz Gonzalez del Rio  ]
+    - row: [blue,        '17:30',           Olga Smirnova,                 Christiane Koch,            Gianluca Fiori            ]
+    - row: [blue,        '18:00',           Morgane Vacher,                Goulven Quemener,           David Tomanek             ] 
       #
-    - row: [red, Conference dinner, '20:00']
+    - row: [yellow, Conference dinner, '20:00']
 
 
 - date: Wednesday, July 17
+  id:   July17
   blocks:
-    - row: [blue, Parallel Sessions, Ladik symposium,  Computational biophysics, Computational spectroscopy ]
-    - row: [blue, '08:30',           Mark Hoffman,     Rafael Bernardi,          Csaba Fabri                ]
-    - row: [blue, '09:00',           Hazel Cox,        Michele Vendruscolo,      Cristina Puzzarini         ]
-    - row: [blue, '09:30',           Samantha Jenkins, Ramon Crehuet,            Sandra Luber               ]
+    - row: [blue | 0830, Parallel Sessions, Ladik symposium,  Computational biophysics, Computational spectroscopy ]
+    - row: [blue,        '08:30',           Mark Hoffman,     Rafael Bernardi,          Csaba Fabri                ]
+    - row: [blue,        '09:00',           Hazel Cox,        Michele Vendruscolo,      Cristina Puzzarini         ]
+    - row: [blue,        '09:30',           Samantha Jenkins, Ramon Crehuet,            Sandra Luber               ]
       #
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
-    - row: [primary, Plenary lecture, '10:30', Monica Olvera de la Cruz]
-    - row: [primary, Keynote lecture, '11:15', Kersti Hermansson]
+    - row: [primary | 1030, Plenary lecture, '10:30', Monica Olvera de la Cruz]
+    - row: [primary,        Keynote lecture, '11:15', Kersti Hermansson]
