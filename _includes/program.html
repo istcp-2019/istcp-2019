@@ -182,9 +182,9 @@
                   <tr>
                     {% for i in (1..5) %}
                       {% if i==1 and setup.size == 2 %}
-                        <th class="g-bg-{{ setup[0] }}"><a id="{{ program.id | append: "/" | append: setup[1] }}">{{ block.row[i] }}</a></th>
+                        <th class="g-bg-{{ setup[0] }}"><a id="{{ program.id | append: "/" | append: setup[1] }}" style="color:black;">{{ block.row[i] }}</a></th>
                       {% else %}
-                        <th class="g-bg-{{ setup[0] }}">{{ block.row[i] }}</th>
+                        <th class="g-bg-{{ setup[0] }}" style="color:black;">{{ block.row[i] }}</th>
                       {% endif %}
                     {% endfor %}
                   </tr>
