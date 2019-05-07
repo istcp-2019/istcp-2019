@@ -136,7 +136,7 @@
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
     - row: [blue | 1030, Parallel Sessions, Ladik symposium,      Ultracold chemical physics, Phys.org.chem. and catalysis, Large-scale el. structure]
-    - row: [blue,        '10:30',           Rodney J. Bartlett,   Jeremy Hutson,              Yousung Jung,                 Shuhua Li                ]
+    - row: [blue,        '10:30',           Rodney J. Bartlett,   Paul Julienne,              Yousung Jung,                 Shuhua Li                ]
     - row: [blue,        '11:00',           Alia Tadjer,          John Bohn,                  Carine Michel,                Johannes Neugebauer      ]
     - row: [blue,        '11:30',           Martin Quack,         Robin Cote,                 Hai Lin,                      Marcus Elstner           ]
     - row: [blue,        '12:00',           Cleanthes Nicolaides, Piotr Zuchowski,            Michelle Coote,               Tsuyoshi Miyazaki        ]
