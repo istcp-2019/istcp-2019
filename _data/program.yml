@@ -102,10 +102,10 @@
     - row: [gray-light-v4, Coffee, '10:00-10:30']
       #
     - row: [blue | 1030, Parallel Sessions, Emergent electronic structure, Mol. properties and interactions, Computational biophysics,       Large-scale el. structure]
-    - row: [blue,        '10:30',           Claudia Filippi,               Stefan Grimme,                    Madhurima Jana Mikko Karttunen, Volker Blum          ]
+    - row: [blue,        '10:30',           Claudia Filippi,               Stefan Grimme,                    Madhurima Jana ,		      Volker Blum          ]
     - row: [blue,        '11:00',           Brenda Rubenstein,             Lyudmila Slipchenko,              Michele Cascella,               Christian Ochsenfeld ]
-    - row: [blue,        '11:30',           Fabien Bruneval,               Attila Csaszar,                   Monika Fuxreiter,               Joost VandeVondele   ]
-    - row: [blue,        '12:00',           Katarzyna Pernal,              Tatiana Korona,                   TBA,                            Steven G.Louie       ]
+    - row: [blue,        '11:30',           Fabien Bruneval,               Attila Csaszar,                   Mikko Karttunen,               Joost VandeVondele   ]
+    - row: [blue,        '12:00',           Katarzyna Pernal,              Tatiana Korona,                   Monika Fuxreiter,                            Steven G.Louie       ]
       #
     - row: [gray-light-v4, Lunch, '12:30-14:00']
       #
